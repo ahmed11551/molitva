@@ -1,9 +1,48 @@
+# Dependencies
 node_modules
-.git
+.pnp
+.pnp.js
+
+# Testing
+coverage
+*.log
+
+# Production builds
+dist
+build
+*.local
+
+# Environment variables
 .env
 .env.local
-*.log
-coverage
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
 .vscode
 .idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Supabase
+.supabase
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation (optional - can be included)
+# docs/
 
