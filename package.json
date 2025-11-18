@@ -23,7 +23,6 @@
     "express": "^4.19.2",
     "helmet": "^7.2.0",
     "morgan": "^1.10.0",
-    "ummalqura-calendar": "^2.0.5",
     "uuid": "^10.0.0",
     "zod": "^3.23.8"
   },
