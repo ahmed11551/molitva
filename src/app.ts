@@ -23,6 +23,24 @@ app.use(
 app.use(express.json({ limit: "1mb" }));
 app.use(morgan("combined"));
 
+// Health check endpoint
+app.get("/", (req, res) => {
+  res.json({
+    message: "Prayer Debt Calculator API",
+    version: "1.0.0",
+    endpoints: {
+      prayerDebt: "/api/prayer-debt",
+      webhooks: "/api/webhooks",
+      duas: "/api/duas",
+      ai: "/api/ai",
+      goals: "/api/goals",
+      glossary: "/api/glossary",
+      prayerCalendar: "/api/prayer-calendar",
+      friends: "/api/friends"
+    }
+  });
+});
+
 app.use("/api/prayer-debt", prayerDebtRouter);
 app.use("/api/webhooks", webhookRouter);
 app.use("/api/duas", duaRouter);
