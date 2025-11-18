@@ -1,0 +1,27 @@
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  gap: var(--spacing-md);
+}
+
+.loading-state-fullscreen {
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--color-background);
+  z-index: 9999;
+}
+
+.loading-state-message {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+

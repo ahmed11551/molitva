@@ -1,0 +1,35 @@
+.prayer-progress-item {
+  margin-bottom: var(--spacing-md);
+}
+
+.prayer-progress-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.prayer-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.prayer-name {
+  flex: 1;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.prayer-percent {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+}
+
+.prayer-count {
+  margin-top: var(--spacing-xs);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  text-align: right;
+}
+

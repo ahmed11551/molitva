@@ -1,0 +1,95 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Production
+dist/
+build/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Supabase
+.supabase/
+
+# Temporary files
+*.tmp
+*.temp
+
+# System files
+AppData/
+.vscode/
+.windsurf/
+.cursor/
+.cache/
+.config/
+.android/
+.gradle/
+.m2/
+.next/
+.nuget/
+.redhat/
+.swt/
+.templateengine/
+.yarnrc
+.gitconfig
+.lesshst
+.netrc
+.npmrc
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+VirtualBox VMs/
+NTUSER.DAT*
+ntuser.dat*
+ntuser.ini
+setup.dat
+composer.json
+composer.lock
+maven/
+nodejs/
+odoo.conf
+package-lock.json
+package.json
+requirements.txt
+vendor/
+demo-yandexcart/
+INSTALLATION.md
+README.md
+

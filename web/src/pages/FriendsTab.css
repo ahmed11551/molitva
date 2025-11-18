@@ -1,0 +1,128 @@
+.friends-tab {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.friends-tabs {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--color-border, #e0e0e0);
+}
+
+.tab-button {
+  flex: 1;
+  padding: var(--spacing-md);
+  border: none;
+  background: transparent;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.tab-button:hover {
+  color: var(--color-primary);
+}
+
+.tab-button.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+.add-friend-card {
+  margin-bottom: var(--spacing-lg);
+}
+
+.friend-request-form {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.friend-input {
+  flex: 1;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border, #e0e0e0);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+.friends-comparison {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.friend-stat-card {
+  margin-bottom: var(--spacing-sm);
+}
+
+.friend-stat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.friend-rank {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.friend-id {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  font-family: monospace;
+}
+
+.friend-stat-details {
+  margin-top: var(--spacing-sm);
+}
+
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.leaderboard-entry {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+}
+
+.leaderboard-rank {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  min-width: 50px;
+  text-align: center;
+}
+
+.leaderboard-info {
+  flex: 1;
+}
+
+.leaderboard-user {
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text);
+}
+
+.leaderboard-stats {
+  text-align: right;
+}
+
+.leaderboard-completed {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-success);
+}
+

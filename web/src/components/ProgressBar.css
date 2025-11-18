@@ -1,0 +1,76 @@
+.progress-bar-wrapper {
+  width: 100%;
+}
+
+.progress-bar-container {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-wrapper.small .progress-bar-container {
+  height: 6px;
+}
+
+.progress-bar-wrapper.medium .progress-bar-container {
+  height: 8px;
+}
+
+.progress-bar-wrapper.large .progress-bar-container {
+  height: 12px;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.3s ease;
+  background: var(--color-primary);
+}
+
+.progress-bar.animated {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    var(--color-primary-light) 50%,
+    var(--color-primary) 100%
+  );
+  background-size: 200% 100%;
+  animation: progress-shimmer 2s infinite;
+}
+
+.progress-bar-primary {
+  background: var(--color-primary);
+}
+
+.progress-bar-success {
+  background: var(--color-success);
+}
+
+.progress-bar-warning {
+  background: var(--color-accent);
+}
+
+.progress-bar-error {
+  background: var(--color-error);
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-xs);
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+@keyframes progress-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
