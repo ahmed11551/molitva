@@ -86,7 +86,7 @@ maven/
 nodejs/
 odoo.conf
 package-lock.json
-package.json
+# package.json should NOT be ignored - it's needed for deployment
 requirements.txt
 vendor/
 demo-yandexcart/
